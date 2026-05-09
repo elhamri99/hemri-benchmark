@@ -19,7 +19,7 @@ Preprocessing: bandpass filter (300-6000 Hz) + common median reference.
 | Dense probe 100ch   | 85.1%    | 86.0%     | 85.1%  | 0.02%         |
 | Harris 2000 baseline| 70.0%    | —         | —      | —             |
 
-hemri_benchmark_final.png
+![benchmark](hemri_benchmark_final.png)
 
 ---
 
