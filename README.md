@@ -24,3 +24,27 @@ Preprocessing: bandpass filter (300-6000 Hz) + common median reference.
 ---
 
 ## Pipeline
+**Supported formats:** Binary, HDF5, NWB, SpikeGLX, OpenEphys
+
+**Supported probe types:** Tetrodes, Silicon probes, Neuropixels
+
+---
+
+## Why HEMRI
+
+| | Manual pipeline | HEMRI |
+|---|---|---|
+| Setup time | 2-3 days | 0 |
+| Processing time | 4-6 hours | 5 minutes |
+| Accuracy | 70% (Harris 2000) | 85-98.9% |
+| Reproducibility | depends on operator | guaranteed |
+| Cost | HPC + engineer | API call |
+
+---
+
+## Beta Access
+
+Currently accepting 5 labs for free beta testing.  
+Your data stays private. Results guaranteed reproducible.
+
+Contact: leo@calloxypro.com
