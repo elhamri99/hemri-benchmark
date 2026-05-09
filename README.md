@@ -1,11 +1,13 @@
-# HEMRI — Neural Spike Sorting Pipeline
+# HEMRI — Neural Spike Sorting API
 
-Cloud pipeline for automated spike sorting of extracellular 
-electrophysiology recordings.
+> Upload raw brain recordings. Get sorted neurons back in minutes.  
+> No HPC. No setup. No engineering required. One API call.
 
-**Upload raw recording → get sorted neurons + quality metrics back.
-No HPC. No setup. One API call.**
-
+HEMRI is a cloud API that takes raw electrophysiology recordings 
+from neuroscience labs and returns sorted neurons with quality 
+metrics. Researchers upload their data and get back analysis-ready 
+results — no infrastructure, no Kilosort license, no PhD student 
+wasted on setup.
 ---
 
 ## Benchmark Results
