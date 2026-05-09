@@ -23,6 +23,28 @@ Preprocessing: bandpass filter (300-6000 Hz) + common median reference.
 
 ---
 
+## Methodology
+
+**Dataset 1:** 16-channel synthetic recording, 10 neurons, 
+60 seconds, 30kHz. Generated with SpikeInterface 
+generate_ground_truth_recording (seed=42).
+
+**Dataset 2:** 100-channel synthetic recording, 50 neurons, 
+120 seconds, 30kHz. Generated with SpikeInterface 
+generate_ground_truth_recording (seed=2024).
+
+**Preprocessing:** Bandpass filter 300-6000Hz → 
+common median reference → bad channel removal.
+
+**Sorters tested:** MountainSort5, SpykingCircus2, 
+Tridesclous2. Best performer selected per configuration.
+
+**Evaluation:** compare_sorter_to_ground_truth() 
+from SpikeInterface comparison module. 
+Metric: pooled_with_average.
+
+**Reproducible code:** see pipeline.py
+
 ## Pipeline
 **Supported formats:** Binary, HDF5, NWB, SpikeGLX, OpenEphys
 
